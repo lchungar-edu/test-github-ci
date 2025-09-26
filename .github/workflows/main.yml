@@ -9,3 +9,6 @@ jobs:
         steps:
             - name: Hello world
               run: echo "Hello world"
+            - name: Listar archivos
+              run: ls -lha
+
